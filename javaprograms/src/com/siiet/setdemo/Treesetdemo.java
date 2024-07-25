@@ -15,10 +15,10 @@ public class Treesetdemo {
 		System.out.println("treeset element "+n);
 
 }
+}
 
-public static void main(String[] args) {
-	Treesetdemo.treeoperation();
-}
-System.out.println(ob.search(7));
-}
+
+
+
+
 

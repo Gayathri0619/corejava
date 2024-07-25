@@ -1,7 +1,7 @@
 package com.siiet.stringdemo;
 
 public class Equalsoperator {
-	public class Equalsoperator {
+	
 		public static void main(String[] args) {
 			String s1="guru";
 			String s2="guru";
@@ -9,6 +9,5 @@ public class Equalsoperator {
 			System.out.println(s1==s2);  
 			System.out.println(s1==s3);
 
-}
 }
 }

@@ -2,7 +2,7 @@ package com.siiet.arraylistdemo;
 import java.util.LinkedList;
 
 public class Linkedlistdemo {
-	public class Linkedlistdemo {
+
 		public static void main(String[] args) {
 			LinkedList l=new LinkedList();
 			l.add("ra");
@@ -20,6 +20,5 @@ public class Linkedlistdemo {
 			
 			System.out.println(l);
 
-}
 }
 }

@@ -12,15 +12,12 @@ public class Jdbcselect {
 			try {
 				Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/sriindu","root","root");
 			
-			
-				
-				// step 4: create statement
+			// step 4: create statement
 				
 				Statement st=conn.createStatement();
 				// step 5: execute quary
 				
 				String strselect="Select booktitle,price,qty from books";
-				
 				// process the result to display
 				
 				ResultSet rst=st.executeQuery(strselect);
@@ -34,8 +31,8 @@ public class Jdbcselect {
 					System.out.println(booktitle+" "+price+" "+qty);
 					++rowcount;
 
-				}
-			}catch (SQLException e) {
+	}
+   }catch (SQLException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
